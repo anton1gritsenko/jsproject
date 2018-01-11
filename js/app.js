@@ -223,7 +223,7 @@ jQuery(function($){
 			email = $(this).data('email');
 			phone = $(this).data('phone');
 			group = $(this).data('group');
-			$container.find('#c-detail').replaceWith('<div id="c-detail"><p><span class="glyphicon glyphicon-user"></span> Name&Surname: ' + name + '</p><p><span class="glyphicon glyphicon-envelope"></span> Email: ' + email + '</p><p><span class="glyphicon glyphicon-phone"></span> Phone: ' + phone + '</p><p> Group: ' + group+ '</p></div>');
+			$container.find('#c-detail').replaceWith('<div id="c-detail"><p><span class="glyphicon glyphicon-user"></span>  ' + name + '</p><p><span class="glyphicon glyphicon-envelope"></span>  ' + email + '</p><p><span class="glyphicon glyphicon-phone"></span>  ' + phone + '</p><p> Group: ' + group+ '</p></div>');
 			$(this).addClass('selected').siblings().removeClass('selected');
 		}
 	});
