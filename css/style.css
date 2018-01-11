@@ -229,4 +229,7 @@ display: inline-block;
 	#names-list{
 		text-align: left;
 	}
+	.popover.right{
+		width: 27%;
+	}
 }
